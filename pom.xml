@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>cn.wnsoft.cms</groupId>
+    <artifactId>wnsoft-cms</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
+    <properties>
+        <jpush.client.version>3.2.17</jpush.client.version>
+        <jiguang.common.version>1.0.3</jiguang.common.version>
+        <spring.version>5.3.4</spring.version>
+    </properties>
+    <modules>
+        <module>msg-mobile-push</module>
+    </modules>
+    <dependencies>
+        <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot</artifactId><version>2.4.2</version>
+    </dependency>
+    </dependencies>
+
+</project>
